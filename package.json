@@ -1,5 +1,5 @@
 {
-  "name": "student-onshow-backend",
+  "name": "webspace-developer-profile-backend",
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/server.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eoanodea/student-onshow-backend.git"
+    "url": "git+https://github.com/web-space-dev/webspace-developer-profile-backend.git"
   },
   "keywords": [
     "express",
@@ -24,37 +24,37 @@
   "author": "Eoan O'Dea",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.22.0",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "express-jwt": "^5.3.3",
-    "helmet": "^3.22.0",
+    "express-jwt": "^6.1.0",
+    "helmet": "^4.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.18",
-    "node-fetch": "^2.6.0",
-    "ts-loader": "^7.0.5"
+    "mongoose": "^6.0.10",
+    "node-fetch": "^3.0.0",
+    "ts-loader": "^9.2.6"
   },
   "devDependencies": {
-    "@types/compression": "^1.7.0",
+    "@types/compression": "^1.7.2",
     "@types/cookie-parser": "^1.4.2",
-    "@types/cors": "^2.8.6",
-    "@types/express": "^4.17.6",
-    "@types/express-jwt": "0.0.42",
-    "@types/helmet": "0.0.47",
-    "@types/jsonwebtoken": "^8.5.0",
-    "@types/mongoose": "^5.7.23",
-    "@types/node-fetch": "^2.5.7",
-    "@types/socket.io": "^2.1.8",
-    "@types/underscore": "^1.10.0",
-    "nodemon": "^2.0.4",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-jwt": "6.0.2",
+    "@types/helmet": "0.0.48",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/mongoose": "^5.11.96",
+    "@types/socket.io": "^3.0.1",
+    "@types/underscore": "^1.11.3",
+    "nodemon": "^2.0.13",
     "tslint": "^6.1.2",
-    "typescript": "^3.9.5"
+    "typescript": "^4.4.3"
   },
   "bugs": {
-    "url": "https://github.com/eoanodea/student-onshow-backend/issues"
+    "url": "https://github.com/web-space-dev/webspace-developer-profile-backend/issues"
   },
-  "homepage": "https://github.com/eoanodea/student-onshow-backend#readme"
+  "homepage": "https://github.com/web-space-dev/webspace-developer-profile-backend#readme"
 }

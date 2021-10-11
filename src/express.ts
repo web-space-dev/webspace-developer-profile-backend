@@ -1,17 +1,3 @@
-/*
- * File: express.tsx
- * Project: student-onshow-backend
- * Version: 1.0.0
- * File Created: Monday, 20th April 2020 10:02:08 pm
- * Author: Eoan O'Dea - eoan@wspace.ie
- * ---------------
- * File Description: Initilises and runs the express server
- * Last Modified: Thursday, 23rd April 2020 5:26:54 pm
- * Modified By: Eoan O'Dea - eoan@wspace.ie
- * ---------------
- * Copyright 2020 - WebSpace
- */
-
 /**
  * Import primary dependencies
  */
@@ -26,13 +12,8 @@ import helmet from "helmet";
 /**
  * Import Routes
  */
-import itemRoutes from "./routes/item.routes";
 
-/**
- * Config environment variables
- */
-
-import config from "../config/config";
+import authRoutes from "./routes/auth.routes";
 
 const CURRENT_WORKING_DIR = process.cwd();
 const app: Application = express();
@@ -57,6 +38,6 @@ app.use(cors());
 
 app.use("/dist", express.static(path.join(CURRENT_WORKING_DIR, "dist")));
 
-app.use("/", itemRoutes);
+app.use("/", authRoutes);
 
 export default app;
