@@ -21,7 +21,6 @@ export const signin = async (req: Request, res: Response) => {
     const { email, password } = req.body;
 
     const plutioToken: any = await generateAccessToken();
-    console.log(plutioToken);
 
     if (plutioToken.status) {
       throw new Error("Could not connect to server");
